@@ -1,0 +1,36 @@
+/* Custom styles for Softmete Store */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+nav a {
+  transition: color 0.3s ease;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+button, a.bg-blue-500 {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, a.bg-blue-500:hover {
+  transform: scale(1.05);
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Logo styling */
+header img {
+  max-height: 48px;
+}
